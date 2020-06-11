@@ -1,9 +1,9 @@
 <?php
 
-namespace Musonza\Groups\Models;
+namespace tima2000\Groups\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Musonza\Groups\Traits\GroupHelpers;
+use tima2000\Groups\Traits\GroupHelpers;
 
 class User extends Authenticatable
 {

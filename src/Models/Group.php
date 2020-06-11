@@ -1,9 +1,9 @@
 <?php
 
-namespace Musonza\Groups\Models;
+namespace tima2000\Groups\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Musonza\Groups\Groups;
+use tima2000\Groups\Groups;
 
 class Group extends Model
 {
@@ -34,6 +34,10 @@ class Group extends Model
         return $this->hasMany(GroupRequest::class, 'group_id')->with('sender');
     }
 
+    public function events()
+    {
+        return $this->hasMany(Event::class, 'group_id');
+    }
     /**
      * Creates a group.
      *

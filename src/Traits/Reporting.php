@@ -1,8 +1,8 @@
 <?php
 
-namespace Musonza\Groups\Traits;
+namespace tima2000\Groups\Traits;
 
-use Musonza\Groups\Models\Report;
+use tima2000\Groups\Models\Report;
 
 trait Reporting
 {

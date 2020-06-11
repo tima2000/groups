@@ -1,11 +1,11 @@
 <?php
 
-namespace Musonza\Groups;
+namespace tima2000\Groups;
 
-use Musonza\Groups\Models\Comment;
-use Musonza\Groups\Models\Group;
-use Musonza\Groups\Models\Post;
-use Musonza\Groups\Models\User;
+use tima2000\Groups\Models\Comment;
+use tima2000\Groups\Models\Group;
+use tima2000\Groups\Models\Post;
+use tima2000\Groups\Models\User;
 
 class Groups
 {

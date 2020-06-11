@@ -1,10 +1,10 @@
 <?php
 
-namespace Musonza\Groups\Models;
+namespace tima2000\Groups\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Musonza\Groups\Traits\Likes;
-use Musonza\Groups\Traits\Reporting;
+use tima2000\Groups\Traits\Likes;
+use tima2000\Groups\Traits\Reporting;
 
 class Post extends Model
 {

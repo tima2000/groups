@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Groups\Models;
+namespace tima2000\Groups\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

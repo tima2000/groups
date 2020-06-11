@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Groups\Facades;
+namespace tima2000\Groups\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

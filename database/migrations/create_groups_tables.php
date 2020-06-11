@@ -28,9 +28,9 @@ class CreateGroupsTables extends Migration
                 $table->string('short_description')->nullable();
                 $table->string('image')->nullable();
                 $table->string('url')->nullable();
-                $table->integer('user_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('user_id');
                 $table->boolean('private')->unsigned()->default(false);
-                $table->integer('conversation_id')->unsignedBigIntegers()->nullable();
+                $table->unsignedBigInteger('conversation_id')->nullable();
                 $table->text('extra_info')->nullable();
                 $table->text('settings')->nullable();
                 $table->timestamps();
@@ -43,8 +43,8 @@ class CreateGroupsTables extends Migration
 
             Schema::create('group_user', function (Blueprint $table) {
                 $table->bigIncrements('id');
-                $table->integer('user_id')->unsignedBigIntegers();
-                $table->integer('group_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('user_id');
+                $table->unsignedBigInteger('group_id');
                 $table->timestamps();
 
                 $table->foreign('user_id')
@@ -63,7 +63,7 @@ class CreateGroupsTables extends Migration
                 $table->string('title');
                 $table->text('body');
                 $table->string('type');
-                $table->integer('user_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('user_id');
                 $table->text('extra_info')->nullable();
                 $table->timestamps();
 
@@ -76,8 +76,8 @@ class CreateGroupsTables extends Migration
             Schema::create('comments', function (Blueprint $table) {
                 $table->bigIncrements('id');
                 $table->string('body');
-                $table->integer('user_id')->unsignedBigIntegers();
-                $table->integer('post_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('user_id');
+                $table->unsignedBigInteger('post_id');
                 $table->string('type')->nullable();
                 $table->timestamps();
 
@@ -91,8 +91,8 @@ class CreateGroupsTables extends Migration
             });
 
             Schema::create('group_post', function (Blueprint $table) {
-                $table->integer('group_id')->unsignedBigIntegers();
-                $table->integer('post_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('group_id');
+                $table->unsignedBigInteger('post_id');
                 $table->timestamps();
 
                 $table->foreign('group_id')
@@ -107,16 +107,16 @@ class CreateGroupsTables extends Migration
             });
 
             Schema::create('likes', function (Blueprint $table) {
-                $table->integer('user_id')->index();
-                $table->integer('likeable_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('user_id')->index();
+                $table->unsignedBigInteger('likeable_id');
                 $table->string('likeable_type');
                 $table->primary(['user_id', 'likeable_id', 'likeable_type']);
                 $table->timestamps();
             });
 
             Schema::create('reports', function (Blueprint $table) {
-                $table->integer('user_id')->index();
-                $table->integer('reportable_id')->unsignedBigIntegers();
+                $table->unsignedBigInteger('user_id')->index();
+                $table->unsignedBigInteger('reportable_id');
                 $table->string('reportable_type');
                 $table->primary(['user_id', 'reportable_id', 'reportable_type']);
                 $table->timestamps();
@@ -124,8 +124,8 @@ class CreateGroupsTables extends Migration
 
             Schema::create('group_request', function (Blueprint $table) {
                 $table->bigIncrements('id');
-                $table->integer('user_id')->unsignedBigIntegers()->index();
-                $table->integer('group_id')->unsignedBigIntegers()->index();
+                $table->unsignedBigInteger('user_id')->index();
+                $table->unsignedBigInteger('group_id')->index();
                 $table->timestamps();
 
                 $table->foreign('group_id')
@@ -137,6 +137,25 @@ class CreateGroupsTables extends Migration
                     ->references('id')
                     ->on('users')
                     ->onDelete('cascade');
+            });
+
+            Schema::create('events', function (Blueprint $table) {
+                $table->bigIncrements('id');
+                $table->unsignedBigInteger('group_id')->index();
+                $table->string('name');
+                $table->string('description')->nullable();
+                $table->dateTimeTz('start')->index();
+                $table->dateTimeTz('end')->index();
+                $table->json('log');
+                $table->timestamps();
+                $table->softDeletes();
+
+
+                $table->foreign('group_id')
+                    ->references('id')
+                    ->on('groups')
+                    ->onDelete('cascade');
+
             });
         } else {
             Schema::create('groups', function (Blueprint $table) {

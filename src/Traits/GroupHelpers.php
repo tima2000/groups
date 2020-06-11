@@ -1,8 +1,8 @@
 <?php
 
-namespace Musonza\Groups\Traits;
+namespace tima2000\Groups\Traits;
 
 trait GroupHelpers
 {
-    use HasGroups, HasPosts;
+    use HasGroups, HasPosts, HasEvents;
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Musonza\Groups\Traits;
+namespace tima2000\Groups\Traits;
 
-use Musonza\Groups\Models\Like;
+use tima2000\Groups\Models\Like;
 
 trait Likes
 {

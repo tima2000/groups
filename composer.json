@@ -1,5 +1,5 @@
 {
-    "name": "musonza/groups",
+    "name": "tima2000/groups",
     "description": "Laravel 5 user groups package",
     "license": "MIT",
     "keywords": [
@@ -9,8 +9,8 @@
     ],
     "authors": [
         {
-            "name": "Tinashe Musonza",
-            "email": "tinashemusonza@gmail.com"
+            "name": "Teymur Agahayev",
+            "email": "teymur@agayev.net"
         }
     ],
     "minimum-stability": "dev",
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Musonza\\Groups\\": "src/"
+            "tima2000\\Groups\\": "src/"
         },
         "classmap": [
             "tests/GroupsTestCase.php"
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Musonza\\Groups\\GroupsServiceProvider"
+                "tima2000\\Groups\\GroupsServiceProvider"
             ]
         }
     }

@@ -6,11 +6,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\Schema;
-use Musonza\Groups\Facades\GroupsFacade;
-use Musonza\Groups\GroupsServiceProvider;
-use Musonza\Groups\Models\Group;
-use Musonza\Groups\Models\Post;
-use Musonza\Groups\Models\User;
+use tima2000\Groups\Facades\GroupsFacade;
+use tima2000\Groups\GroupsServiceProvider;
+use tima2000\Groups\Models\Group;
+use tima2000\Groups\Models\Post;
+use tima2000\Groups\Models\User;
 use Orchestra\Database\ConsoleServiceProvider;
 use Orchestra\Testbench\TestCase;
 

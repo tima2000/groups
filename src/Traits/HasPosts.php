@@ -1,10 +1,10 @@
 <?php
 
-namespace Musonza\Groups\Traits;
+namespace tima2000\Groups\Traits;
 
-use Musonza\Groups\Models\Post;
+use tima2000\Groups\Models\Post;
 
-trait HasPosts
+trait   HasPosts
 {
     public function posts()
     {

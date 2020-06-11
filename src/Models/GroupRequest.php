@@ -1,9 +1,9 @@
 <?php
 
-namespace Musonza\Groups\Models;
+namespace tima2000\Groups\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Musonza\Groups\Groups;
+use tima2000\Groups\Groups;
 
 class GroupRequest extends Model
 {

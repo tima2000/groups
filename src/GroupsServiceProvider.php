@@ -1,6 +1,6 @@
 <?php
 
-namespace Musonza\Groups;
+namespace tima2000\Groups;
 
 use Illuminate\Support\ServiceProvider;
 

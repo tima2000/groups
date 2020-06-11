@@ -37,7 +37,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Musonza\Groups\GroupsServiceProvider::class,
+        tima2000\Groups\GroupsServiceProvider::class,
 
     ],
 
@@ -84,7 +84,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
 
-        'Groups' => Musonza\Groups\Facades\GroupsFacade::class,
+        'Groups' => tima2000\Groups\Facades\GroupsFacade::class,
     ],
 
 ];
