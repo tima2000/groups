@@ -146,7 +146,7 @@ class CreateGroupsTables extends Migration
                 $table->string('description')->nullable();
                 $table->dateTimeTz('start')->index();
                 $table->dateTimeTz('end')->index();
-                $table->json('log');
+                $table->json('log')->nullable();;
                 $table->timestamps();
                 $table->softDeletes();
 

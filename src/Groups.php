@@ -123,4 +123,14 @@ class Groups
     {
         return $this->comment->findOrFail($commentId);
     }
+
+    public function addEvent($data)
+    {
+        return $this->event->addEvent($data);
+    }
+
+    public function event($eventId)
+    {
+        return $this->event->findOrFail($eventId);
+    }
 }
