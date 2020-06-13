@@ -20,12 +20,12 @@ class Event extends Model
     }
 
     /**
-     * Updates Post.
+     * Updates Event.
      *
      * @param int   $eventId
      * @param array $data
      *
-     * @return Post
+     * @return Event
      */
     public function updateEvent($eventId, $data)
     {

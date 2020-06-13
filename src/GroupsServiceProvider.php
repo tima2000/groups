@@ -27,7 +27,7 @@ class GroupsServiceProvider extends ServiceProvider
     private function registerGroups()
     {
         $this->app->bind('groups', function () {
-            return $this->app->make('Musonza\Groups\Groups');
+            return $this->app->make('tima2000\Groups\Groups');
         });
     }
 

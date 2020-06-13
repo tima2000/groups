@@ -6,6 +6,7 @@ use tima2000\Groups\Models\Comment;
 use tima2000\Groups\Models\Group;
 use tima2000\Groups\Models\Post;
 use tima2000\Groups\Models\User;
+use tima2000\Groups\Models\Event;
 
 class Groups
 {
@@ -21,22 +22,29 @@ class Groups
      * @var Post
      */
     protected $post;
+
+    /**
+     * @var Comment
+     */
+    protected $event;
+
     /**
      * @var User
      */
     protected $user;
 
-    public function __construct(Comment $comment, Group $group, Post $post)
+    public function __construct(Comment $comment, Group $group, Post $post, Event $event)
     {
         $this->comment = $comment;
         $this->group = $group;
         $this->post = $post;
+        $this->event = $event;
         $this->user = app(self::userModel());
     }
 
     public static function userModel()
     {
-        return config('musonza_groups.user_model', User::class);
+        return config('tima2000_groups.user_model', User::class);
     }
 
     /**
