@@ -2,6 +2,7 @@
 
 namespace tima2000\Groups;
 
+use tima2000\Groups\Models\GroupUser;
 use tima2000\Groups\Models\Comment;
 use tima2000\Groups\Models\Group;
 use tima2000\Groups\Models\Post;
@@ -145,5 +146,16 @@ class Groups
     public function groupsOwnedBy($user_id)
     {
         return $this->group->where('user_id', $user_id)->get();
+    }
+
+    public function shareSamePrivateGroup($host_id, $client_id)
+    {
+        $groups = GroupUser::select('group_id')
+            ->where('user_id', $client_id)
+            ->whereIn('group_id', function ($query) use($host_id){
+                $query->select('id')->from('groups')->where('user_id',$host_id)->where('private', 1);
+            })
+            ->orderBy('group_id', 'desc')
+            ->firstOr(function (){return false;});
     }
 }

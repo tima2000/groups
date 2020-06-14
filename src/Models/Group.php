@@ -43,6 +43,7 @@ class Group extends Model
     {
         return $this->hasMany(Event::class, 'group_id');
     }
+
     /**
      * Creates a group.
      *

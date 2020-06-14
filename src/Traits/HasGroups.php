@@ -15,4 +15,5 @@ trait HasGroups
     {
         return $this->hasMany(Group::class);
     }
+
 }
