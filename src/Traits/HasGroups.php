@@ -10,4 +10,9 @@ trait HasGroups
     {
         return $this->belongsToMany(Group::class, 'group_user');
     }
+
+    public function groupsOwner()
+    {
+        return $this->hasMany(Group::class);
+    }
 }

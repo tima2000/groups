@@ -29,6 +29,11 @@ class Group extends Model
         return $this->belongsToMany(Post::class, 'group_post')->withTimestamps();
     }
 
+    public function owner()
+    {
+        return $this->belongsTo(Groups::userModel());
+    }
+
     public function requests()
     {
         return $this->hasMany(GroupRequest::class, 'group_id')->with('sender');
@@ -50,7 +55,7 @@ class Group extends Model
     {
         $data['user_id'] = $userId;
 
-        return $this->create($data)->addMembers($userId);
+        $this->create($data)->addMembers($userId);
     }
 
     /**
