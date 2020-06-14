@@ -56,7 +56,7 @@ class Group extends Model
     {
         $data['user_id'] = $userId;
 
-        $this->create($data)->addMembers($userId);
+        return $this->create($data)->addMembers($userId);
     }
 
     /**
