@@ -141,4 +141,9 @@ class Groups
     {
         return $this->event->findOrFail($eventId);
     }
+
+    public function groupsOwnedBy($user_id)
+    {
+        return $this->group->where('user_id', $user_id)->get();
+    }
 }
