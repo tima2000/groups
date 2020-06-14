@@ -150,7 +150,7 @@ class Groups
 
     public function shareSamePrivateGroup($host_id, $client_id)
     {
-        $groups = GroupUser::select('group_id')
+        return GroupUser::select('group_id')
             ->where('user_id', $client_id)
             ->whereIn('group_id', function ($query) use($host_id){
                 $query->select('id')->from('groups')->where('user_id',$host_id)->where('private', 1);
