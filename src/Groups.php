@@ -152,9 +152,9 @@ class Groups
     {
         Event::whereIn('group_id', function ($query) use($user_id){
             $query->select('group_id')->from('group_user')->where('user_id',$user_id);
-        })
+            })
             ->orderBy('id', 'desc')
-            ->firstOr(function (){return false;});
+            ->get();
     }
 
     public function shareSamePrivateGroup($host_id, $client_id)
