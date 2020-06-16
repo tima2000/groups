@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b14ff8b-768f-4dca-b26b-731cf83d99ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Groups.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Groups.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Traits/HasEvents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/HasEvents.php" afterDir="false" />
     </list>
@@ -63,7 +64,7 @@
       <workItem from="1591790791299" duration="86000" />
       <workItem from="1591883531899" duration="2262000" />
       <workItem from="1592039786956" duration="18793000" />
-      <workItem from="1592332307381" duration="1519000" />
+      <workItem from="1592332307381" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="Events Added">
       <created>1591899575213</created>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592160947261</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Groups owner methods added 2">
+      <created>1592333864791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592333864791</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,18 +147,18 @@
       <screen x="48" y="27" width="1872" height="1053" />
     </state>
     <state x="717" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/48.27.1872.1053@48.27.1872.1053" timestamp="1592144436328" />
-    <state x="520" y="150" width="918" height="814" key="CommitChangelistDialog2" timestamp="1592160947115">
+    <state x="520" y="150" width="918" height="814" key="CommitChangelistDialog2" timestamp="1592333864599">
       <screen x="48" y="27" width="1872" height="1053" />
     </state>
-    <state x="520" y="150" width="918" height="814" key="CommitChangelistDialog2/48.27.1872.1053@48.27.1872.1053" timestamp="1592160947115" />
+    <state x="520" y="150" width="918" height="814" key="CommitChangelistDialog2/48.27.1872.1053@48.27.1872.1053" timestamp="1592333864599" />
     <state x="782" y="367" width="393" height="380" key="NewPhpClassDialog" timestamp="1591628060902">
       <screen x="48" y="27" width="1872" height="1053" />
     </state>
     <state x="782" y="367" width="393" height="380" key="NewPhpClassDialog/48.27.1872.1053@48.27.1872.1053" timestamp="1591628060902" />
-    <state x="579" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592160949773">
+    <state x="579" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592333867183">
       <screen x="48" y="27" width="1872" height="1053" />
     </state>
-    <state x="579" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/48.27.1872.1053@48.27.1872.1053" timestamp="1592160949773" />
+    <state x="579" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/48.27.1872.1053@48.27.1872.1053" timestamp="1592333867183" />
     <state x="148" y="127" width="1672" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592159871379">
       <screen x="48" y="27" width="1872" height="1053" />
     </state>
