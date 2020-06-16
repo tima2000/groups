@@ -150,7 +150,7 @@ class Groups
 
     public function userEvents($user_id)
     {
-        Event::whereIn('group_id', function ($query) use($user_id){
+        return Event::whereIn('group_id', function ($query) use($user_id){
             $query->select('group_id')->from('group_user')->where('user_id',$user_id);
             })
             ->orderBy('id', 'desc')
