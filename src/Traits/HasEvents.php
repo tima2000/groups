@@ -9,6 +9,6 @@ trait   HasEvents
 {
     public function events()
     {
-        return $this->hasManyThrough(Event::class, Group::class);
+        return $this->groups()->events;
     }
 }

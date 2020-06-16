@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b14ff8b-768f-4dca-b26b-731cf83d99ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Groups.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Groups.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/HasEvents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/HasEvents.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1d2TEXdAY1YFj9LsmZisVDEL1P2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Traits" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Traits" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b14ff8b-768f-4dca-b26b-731cf83d99ce" name="Default Changelist" comment="" />
+      <created>1591622076522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591622076522</updated>
+      <workItem from="1591622078616" duration="4722000" />
+      <workItem from="1591790791299" duration="86000" />
+      <workItem from="1591883531899" duration="2262000" />
+      <workItem from="1592039786956" duration="18793000" />
+      <workItem from="1592332307381" duration="1519000" />
+    </task>
+    <task id="LOCAL-00001" summary="Events Added">
+      <created>1591899575213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591899575213</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Events Added">
+      <created>1591900413568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591900413568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Events Updated">
+      <created>1592055967929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592055967929</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Groups owner methods added">
+      <created>1592125891861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592125891861</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Groups owner methods added 2">
+      <created>1592126545112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592126545112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Groups owner methods added 2">
+      <created>1592144590095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592144590095</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Groups owner methods added 2">
+      <created>1592148758926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592148758926</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Groups owner methods added 2">
+      <created>1592160947261</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592160947261</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Events Added" />
+    <MESSAGE value="Events Updated" />
+    <MESSAGE value="Groups owner methods added" />
+    <MESSAGE value="Groups owner methods added 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Groups owner methods added 2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592144436328">
+      <screen x="48" y="27" width="1872" height="1053" />
+    </state>
+    <state x="717" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/48.27.1872.1053@48.27.1872.1053" timestamp="1592144436328" />
+    <state x="520" y="150" width="918" height="814" key="CommitChangelistDialog2" timestamp="1592160947115">
+      <screen x="48" y="27" width="1872" height="1053" />
+    </state>
+    <state x="520" y="150" width="918" height="814" key="CommitChangelistDialog2/48.27.1872.1053@48.27.1872.1053" timestamp="1592160947115" />
+    <state x="782" y="367" width="393" height="380" key="NewPhpClassDialog" timestamp="1591628060902">
+      <screen x="48" y="27" width="1872" height="1053" />
+    </state>
+    <state x="782" y="367" width="393" height="380" key="NewPhpClassDialog/48.27.1872.1053@48.27.1872.1053" timestamp="1591628060902" />
+    <state x="579" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592160949773">
+      <screen x="48" y="27" width="1872" height="1053" />
+    </state>
+    <state x="579" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/48.27.1872.1053@48.27.1872.1053" timestamp="1592160949773" />
+    <state x="148" y="127" width="1672" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592159871379">
+      <screen x="48" y="27" width="1872" height="1053" />
+    </state>
+    <state x="148" y="127" width="1672" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/48.27.1872.1053@48.27.1872.1053" timestamp="1592159871379" />
+  </component>
+</project>
